@@ -6,4 +6,5 @@ Rails.application.routes.draw do
       post :close
     end
   end
+  resources :messages, only: [:create]
 end
